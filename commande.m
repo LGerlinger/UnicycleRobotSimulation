@@ -6,7 +6,7 @@ function [u] = commande(difficulte, xr, dxr, xp)
 %
 %       u : commande en vitesse et en rotation
 
-k1 = 1.1;
+k1 = 0.98;
 % k2 = k1; % Pour l'instant, on garde k2 = k1
 
 % --- Paramètres estimés robot ----
